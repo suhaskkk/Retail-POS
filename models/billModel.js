@@ -13,3 +13,4 @@ const billSchema = mongoose.Schema({
 const billModel = mongoose.model("bills", billSchema);
 
 module.exports = billModel;
+// here we save the all the details in mongodb database
